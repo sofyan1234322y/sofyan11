@@ -1,0 +1,101 @@
+body{
+height: 100vh;
+background: black;
+
+
+}
+h1{
+    color: antiquewhite;
+    background-color: darkgrey;
+    display: inline;
+    border: 2px solid ;
+    border-radius: 8px;
+    position: absolute;
+    right: 400px;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    box-shadow :0 0 30px red ;
+
+
+}
+h1:hover{
+    background-color: cyan;
+    transform: translateY(20px);
+    color:yellow;
+box-shadow:0 0 40px cyan;
+
+}
+button{
+    background-color:cyan;
+    color:white;
+    position:absolute;
+    margin-top:400px;
+    border: NONE;
+    border-radius: 5PX;
+    font-size: 16PX;
+    cursor: pointer;
+    transition: 0.3s;
+
+
+border-radius: 4px;
+    border:wheat 2px solid;
+    
+}
+button:hover{
+    background-color: #FF6600;
+}
+h5{
+    color:black;
+    position:absolute;
+    margin-top:399px;
+    right: 799px;
+    background-color:rgba(19, 222, 222, 0.803);
+    border:white 2px solid;
+    font-size: 16PX;
+}
+H5:hover{
+    box-shadow: 0 0 30PX red;
+} 
+
+IMG{
+    BORDER:2PX SOLID;
+    BORDER-COLOR:white;
+    POSITION:ABSOLUTE;
+    right: 20PX;
+    MARGIN-TOP:285PX;
+}
+IMG:hover{
+    BOX-SHADOW:0 0 30PX CYAN;
+    border-radius: 4PX;
+    transition: 0.3s;
+}
+
+H3{
+    COLOR:WHITE;
+    POSITION:ABSOLUTE;
+    right: 100PX;
+    MARGIN-TOP:220PX;
+    text-decoration: underline RED ;
+
+    
+}
+P{
+    COLOR:WHITE;
+    POSITION:ABSOLUTE;
+    MARGIN-TOP:500PX;
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20PX;
+}
+P:hover{
+    COLOR:#FF6600;
+    transition: 0.5s;
+}
+button{
+
+}
+
+
+
+

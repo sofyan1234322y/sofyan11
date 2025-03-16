@@ -1,0 +1,91 @@
+body{
+    background: rgba(10, 10, 10, 0.928);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+.rotar{
+    background: white;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 5px 10px rgb(242, 67, 4);
+text-align: center;
+margin-bottom: 20px;
+width: 300px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+input[type="password"]{
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid orangered;
+    border-radius: 4px;
+    font-size: lem;
+    transition: border-color 0.3s,box-shadow 0.3s;
+    
+}
+input[type="password"]:focus{
+    border-color: blue;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}
+input[type="password"]::placeholder{
+    color: #aaa;
+    font-style: italic;
+}
+
+input[type="email"]{
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid orangered;
+    border-radius: 4px;
+    font-size: lem;
+    transition: border-color 0.3s,box-shadow 0.3s;
+    
+}
+input[type="email"]:focus{
+    border-color: blue;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}
+input[type="email"]::placeholder{
+    color: #aaa;
+    font-style: italic;
+}
+h2{
+    color: blue;
+    position: absolute;
+    margin-bottom: 300px;
+    background: wheat;
+    border: double orangered 2px ;
+    border-radius: 4px;
+    box-shadow: 0 0 9px rgb(243, 67, 3);
+    width: 400px;
+    text-align: center;
+}
+h2:hover{
+    transform: translateX(20px);
+    box-shadow: 0 0 50px orangered ;
+}
+button{
+    background: rgb(1, 255, 255);
+position: absolute;
+margin-top: 400px;
+border: gray 2px solid ;
+border-radius: 4px;
+
+color: red;
+}
+
+
+
+
